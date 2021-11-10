@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  gorilla-ubuntu:
 
     runs-on: ubuntu-latest
 
@@ -16,7 +16,25 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Install dependencies
       run: shards install
-    - name: Run tests
-      run: crystal spec
+
+    - name: Build Gorilla Programming Language
+      run: crystal build src/gorilla.cr -o gorilla
+
+  gorilla-macos:
+
+    runs-on: macos-latest
+
+    container:
+      image: crystallang/crystal
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: shards install
+
+    - name: Build Gorilla Programming Language
+      run: crystal build src/gorilla.cr -o gorilla
