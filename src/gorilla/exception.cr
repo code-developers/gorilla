@@ -4,7 +4,7 @@ require "./source-highlight.cr"
 require "./interpreter/context.cr"
 require "colorize"
 
-module Charly
+module Gorilla
 
   class BaseException < Exception
     def to_s(io)
