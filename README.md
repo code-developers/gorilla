@@ -1,22 +1,22 @@
 # gorilla
 
-TODO: Write a description here
+A Programming Language Built Using Crystal-Lang
 
 ## Installation
 
-TODO: Write installation instructions here
+```
+$ git clone https://github.com/krishpranav/gorilla
+$ cd gorilla
+$ crystal build src/gorilla.cr --release --stats -o bin/gorilla
+```
 
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+## Supported Operating Systems:
+- macOS
+- Linux
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/gorilla/fork>)
+1. Fork it (<https://github.com/krishpranav/gorilla/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -24,4 +24,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [krishpranav](https://github.com/your-github-user) - creator and maintainer
+- [krishpranav](https://github.com/krishpranav) - creator and maintainer
