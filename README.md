@@ -15,7 +15,7 @@ $ crystal build src/gorilla.cr --release --stats -o bin/gorilla
 - Linux
 
 ## Contributing
-- check out the contributing [guide](https://github.com/krishpranav/gorilla/)
+- check out the contributing [guide](https://github.com/krishpranav/gorilla/blob/master/CONTRIBUTING.md)
 
 ## Contributors
 
