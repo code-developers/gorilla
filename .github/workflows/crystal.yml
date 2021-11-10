@@ -27,13 +27,16 @@ jobs:
 
     runs-on: macos-latest
 
-    container:
-      image: crystallang/crystal
-
     steps:
     - uses: actions/checkout@v2
 
-    - name: Install dependencies
+    - name: Install Crystal
+      run: brew install crystal
+
+    - name: Check Crystal Version
+      run: crystal --version
+      
+    - name: Install Dependencies
       run: shards install
 
     - name: Build Gorilla Programming Language
