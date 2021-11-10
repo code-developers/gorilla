@@ -1,0 +1,13 @@
+name: gorilla
+version: 0.1.0
+
+authors:
+  - krishpranav <krisna.pranav@gmail.com>
+
+targets:
+  gorilla:
+    main: src/gorilla.cr
+
+crystal: 1.2.1
+
+license: MIT
